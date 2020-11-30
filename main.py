@@ -60,4 +60,4 @@ class Email:
 
 
 email = Email("noreply@yourdomain.com", ["recipient1@gmail.com","recipient2@gmail.com"])
-email.send_mail(sunject="Subject", body="<h1>Body</h1>", is_html=True)
+email.send_mail(subject="Subject", body="<h1>Body</h1>", is_html=True)
